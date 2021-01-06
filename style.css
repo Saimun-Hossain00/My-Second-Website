@@ -1,0 +1,91 @@
+.menu{
+    background-color:rgb(248, 255, 255);
+    display:flex;
+    justify-content: flex-end;
+}
+.menu a{
+    text-decoration:none;
+    padding:20px;
+    color: rgb(24, 22, 22);
+}
+@media screen and (max-width: 600px){
+    .menu {
+        flex-direction: column;
+
+    }
+    .menu a{
+        background-color:rgb(255, 255, 255);
+        margin: 10px 0;
+        text-align:center;
+    }
+}
+
+body{
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+.h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color:blueviolet;
+}
+.half-width{
+    width: 30%;
+    float: right;
+    margin-left: 0%;
+    padding-right: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.header-bg{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: royalblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+.saimun-rok{
+    width: 30%;
+    float: left;
+    margin-right: 0%;
+    padding-left: 5%;
+}
+.saimun-rok img{
+    width: 100%;
+}
+.biography-bg{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+
+.body-ab{
+    background-color: rgb(198, 230, 219);
+    background-size: cover;
+    position: relative;
+}
+.body-ab h1{
+    text-align: center;
+    padding:30px;
+    font-family: sans-serif;
+}
+.name-light{
+    color:rgb(255, 0, 98);
+}
